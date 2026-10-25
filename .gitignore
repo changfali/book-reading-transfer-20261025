@@ -1,0 +1,5 @@
+reading/books/
+reading/rules/
+reading/manifest.json
+__pycache__/
+*.pyc
