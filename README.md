@@ -1,10 +1,10 @@
 # 书库跨机器阅读
 
-本仓库为私有仓库，包含158本书的可用OCR、原生整理文本、规则和已有阅读成果。`reading-text.zip`约65 MiB。
+本仓库为公开仓库，包含158本书的可用OCR、原生整理文本、规则和已有阅读成果。`reading-text.zip`约65 MiB。
 
 ## Linux使用
 
-使用有权访问本私有仓库的GitHub账号或凭据：
+无需登录GitHub即可拉取：
 
 ```bash
 git clone https://github.com/changfali/book-reading-transfer-20261025.git
