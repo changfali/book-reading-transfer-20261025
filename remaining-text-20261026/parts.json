@@ -1,0 +1,64 @@
+{
+  "bytes": 373662269,
+  "selected_books": 501,
+  "excluded_read_complete_books": 192,
+  "files": 111248,
+  "uncompressed_bytes": 1737109136,
+  "source_issues": [
+    {
+      "book": "BOOK-0390",
+      "error": "No accepted OCR/native text; record gap, do not claim it read."
+    }
+  ],
+  "zip_crc_verified": true,
+  "archive_name": "reading-remaining-text.zip",
+  "archive_sha256": "ce3d073f25664135331af1c823ea4a76a20535030c80efffd8d7134a8d44ca47",
+  "parts": [
+    {
+      "name": "reading-text.zip.part-001",
+      "bytes": 41943040,
+      "sha256": "79005a671b02ada7e11f8b5238b6947a4859f9be3e072c79f879516653051382"
+    },
+    {
+      "name": "reading-text.zip.part-002",
+      "bytes": 41943040,
+      "sha256": "3649b2e60bb85958a1fcf675c75f06d5be0621d5fe235dbb50b23f1cda530255"
+    },
+    {
+      "name": "reading-text.zip.part-003",
+      "bytes": 41943040,
+      "sha256": "517ddd967efe72ce6f66793faae79cc4b72f520534d250624e395efc6998f013"
+    },
+    {
+      "name": "reading-text.zip.part-004",
+      "bytes": 41943040,
+      "sha256": "08b8720dcf605f5db2fea804ed2155ba3b33bc16b5a6e808262a496aacb72dd1"
+    },
+    {
+      "name": "reading-text.zip.part-005",
+      "bytes": 41943040,
+      "sha256": "27a55054eb9e7160e9be5c2bce897a55bdb13ebeda0c8973ad93119d46b1ed56"
+    },
+    {
+      "name": "reading-text.zip.part-006",
+      "bytes": 41943040,
+      "sha256": "911659ca13d9fb73cb48dcb40325a0e29fa0f63a10d24654308047c7df64304c"
+    },
+    {
+      "name": "reading-text.zip.part-007",
+      "bytes": 41943040,
+      "sha256": "6de7674f0073f033ab0f710ba35ecaccc9d8c1c9563376fbab97754b0853be7a"
+    },
+    {
+      "name": "reading-text.zip.part-008",
+      "bytes": 41943040,
+      "sha256": "1ec8d4d0255ae8eb8e0bab342a322f09bc56bb901f3c5dc925e338c8b87bd2a3"
+    },
+    {
+      "name": "reading-text.zip.part-009",
+      "bytes": 38117949,
+      "sha256": "8dad75bd90ceed97d8bae5cb12b898eac26887cf37af355c39c9e7265ea69347"
+    }
+  ],
+  "github_folder": "remaining-text-20261026"
+}
