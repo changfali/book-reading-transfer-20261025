@@ -1,5 +1,20 @@
 # 书库跨机器阅读
 
+## 最新：第二版金融书籍 OCR（2026-11-27）
+
+[第二版1183本OCR文字包](v2-ocr-text-20261127-221357/README.md)：压缩合计1.38 GB，33卷；解压约5.03 GB，建议预留12 GB。
+包含正式Markdown/JSON结果、原质量报告、manifest、书名索引和队列快照，不含原PDF、页面图片或隔离候选。识别产物不代表已通过质量验收；原有失败/待核状态保留。
+
+```bash
+git pull
+python3 v2-ocr-text-20261127-221357/unpack.py
+```
+
+自动校验并解压后，在 `v2-ocr-text-20261127-221357/reading/index.json` 按书名查找。
+文字在 `reading/V2/books/V2-BOOK-xxxxxx/results/page-xxxx.md`，JSON保留分块与坐标。
+首次使用先 `git clone https://github.com/changfali/book-reading-transfer-20261025.git` 并进入该仓库目录。
+下面两份旧包原样保留，不需要重复解压阅读。
+
 ## 新增：全部未整本读完的书（2026-10-26）
 
 [501本文字迁移包与使用说明](remaining-text-20261026/README.md)：仅排除192本有明确整本已读记录的书，其余全部纳入，包括部分L2、已分配、正在读和旧外发包中的书。
